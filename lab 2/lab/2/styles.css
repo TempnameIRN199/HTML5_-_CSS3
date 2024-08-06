@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.toc {
+    list-style: none;
+    padding-left: 0;
+}
+.toc li {
+    margin: 5px 0;
+}
+.toc > li > span {
+    font-weight: bold;
+    color: black;
+}
+.toc .nested-list {
+    list-style: none;
+    padding-left: 20px;
+}
+.toc .nested-list > li > span {
+    color: black;
+}
+.toc .nested-list .nested-list {
+    padding-left: 20px;
+}

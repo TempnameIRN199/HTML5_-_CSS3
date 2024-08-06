@@ -1,0 +1,21 @@
+body {
+    background: #f4f4f4; /* Light background for the entire page */
+    font-family: Arial, sans-serif;
+  }
+  ul {
+    width: 300px; /* Fixed width */
+    list-style-type: none; /* Removes default bullets */
+    padding: 0;
+    margin: 20px; /* Margin around the list */
+    background: #ffb3c6; /* Light pink background for the list */
+  }
+  li {
+    background: #ff6680; /* Darker pink background for each item */
+    margin: 5px; /* Space between items */
+    padding: 10px; /* Padding inside each item */
+    color: white; /* White text color */
+  }
+  span {
+    background: #ff334d; /* Darkest pink background for the text */
+    padding: 5px; /* Padding around text */
+  }

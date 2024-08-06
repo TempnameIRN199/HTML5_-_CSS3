@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+  }
+  .even {
+    background-color: #e0f7fa; /* Lighter blue */
+  }
+  .odd {
+    background-color: #b2ebf2; /* Darker blue */
+  }
+  .checked {
+    background-color: #e0e0e0; /* Grey background */
+    text-decoration: line-through; /* Strike through text */
+  }
+  .icon {
+    margin-right: 10px;
+  }

@@ -1,0 +1,25 @@
+img{
+
+    background-image: url("trip.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    float: left;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    opacity: 0.7;
+}
+.img2{
+
+    background-image: url("trip.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    float: right;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    opacity: 0.9;
+}
+p {
+    font-size: 200%;
+}

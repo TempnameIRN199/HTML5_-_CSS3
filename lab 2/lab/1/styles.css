@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    width: 80%;
+    margin:auto;
+}
+h1 {
+    font-size: 24px;
+    color: black;
+}
+ol {
+    font-weight: 600;
+}
+ul {
+    list-style-type: none;
+    font-weight: 200;
+}
+#winter li {
+    list-style-image: url(icons/winter_16.png);
+}
+#spring li {
+    list-style-image: url(icons/spring_16.png);
+}
+#summer li {
+    list-style-image: url(icons/summer_16.png);
+}
+#autumn li {
+    list-style-image: url(icons/autumn_16.png);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <iframe id="large-image" src="icons_practice_module_3/cat_box_256.png" name="large-image-frame"></iframe>
+        <div class="thumbnails">
+            <img src="icons_practice_module_3/cat_box_64.png" class="thumbnail" alt="Image 1" onclick="changeImage('icons_practice_module_3/cat_box_256.png')">
+            <img src="icons_practice_module_3/cat_cage_64.png" class="thumbnail" alt="Image 2" onclick="changeImage('icons_practice_module_3/cat_cage_256.png')">
+            <img src="icons_practice_module_3/cat_clean_64.png" class="thumbnail" alt="Image 3" onclick="changeImage('icons_practice_module_3/cat_clean_256.png')">
+            <img src="icons_practice_module_3/cat_eyes_64.png" class="thumbnail" alt="Image 3" onclick="changeImage('icons_practice_module_3/cat_eyes_256.png')">
+            <img src="icons_practice_module_3/cat_purr_64.png" class="thumbnail" alt="Image 3" onclick="changeImage('icons_practice_module_3/cat_purr_256.png')">
+            <img src="icons_practice_module_3/cat_tied_64.png" class="thumbnail" alt="Image 3" onclick="changeImage('icons_practice_module_3/cat_tied_256.png')">
+        </div>
+    </div>
+
+    <script>
+        function changeImage(imageSrc) {
+            document.getElementById('large-image').src = imageSrc;
+        }
+    </script>
+</body>
+</html>
