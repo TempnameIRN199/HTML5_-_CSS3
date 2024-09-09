@@ -1,0 +1,100 @@
+.chartmenu{
+  border:1px solid black;
+  padding: 20px;
+}
+.menu{
+  background-color: rgb(48, 48, 48);
+  color: white;
+  height:100%; 
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+}
+.logo1{
+  text-align: center;
+}
+.logo2{
+  width: 300px;
+  height:300px;
+  padding: 15px;
+}
+.main{
+  grid-template-columns: 1fr 5fr;
+  display: grid;
+  
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vh;
+}
+.D{
+  display: inline-block;
+}
+.D2{
+  background-color: rgb(226, 226, 226);
+  padding: 25px;
+}
+.traffic{
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  width:  75vh;
+  margin: 25px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.recent{
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  width:  160vh;
+  margin: 25px;
+}
+table{
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+td{
+  text-align: left;
+  font-size: 22px;
+  padding: 10px;
+}
+td:nth-child(5n-4){
+  text-align: center;
+}
+th{
+  text-align: left;
+  padding: 10px;
+  font-size: 26px;
+
+}
+th:nth-child(5n-4){
+  text-align: center;
+  width: 5%;
+}
+th:nth-child(5n-3){
+  width: 61%;
+}
+
+td,th{
+  border-bottom: 2px black solid;
+}
+@media screen and (max-width: 600px) {
+  .main {
+      display: block;
+  }
+  .grid{
+      display: block;
+
+  }
+  .traffic{
+      background-color: rgb(255, 255, 255);
+      padding: 25px;
+      width:  160vh;
+      margin: 25px;
+  }
+}

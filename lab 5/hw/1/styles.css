@@ -1,0 +1,46 @@
+/* Стилизация для первого ряда (подписи столбцов) */
+td{
+    min-width: 100px;
+    min-height: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+th{
+    min-width: 100px;
+    min-height: 30px;
+    width: 100px;
+    height: 30px;
+}
+
+/*header*/
+table tr:first-child th {
+  background-color: #3ea1c2;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+  
+/*lines*/
+table tr td:first-child {
+  background-color: #3ea1c2;
+  font-weight: bold;
+  text-align: center;
+  position: sticky;
+  left: 0;
+  z-index: 999;
+}
+  
+  /* Пример стилизации для четных строк */
+table tr:nth-child(even) {
+    background-color: #fff;
+    text-align: center;
+}
+  
+  /* Пример стилизации для нечетных строк */
+table tr:nth-child(odd) {
+    background-color: #cecece;
+    text-align: center;
+}
+  

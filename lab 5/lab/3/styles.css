@@ -1,0 +1,84 @@
+.head{
+    vertical-align: top;
+    width:  98%;
+    padding: 30px;
+    padding-left: 150px;
+    margin: 0px;
+    background-color: rgb(167, 10, 83);
+    color: white;
+    font-size: 28px;
+    display: flex;
+    font-weight: bold;
+    position: fixed;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    padding-left: 100px;
+}
+.div a{
+    padding: 30px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.div a:hover {background-color:  rgb(126, 9, 64);}
+.fortitle{
+    font-weight: bold;
+    font-size:36px;
+}
+.forwiki{
+    font-size:15px;
+}
+.forbold{
+    font-weight: bolder;
+}
+.body{
+    display: grid;
+    width: 900px;
+    padding-top: 100px;
+    grid-template-columns: 2fr 1fr; 
+    margin: 0 auto;
+}
+.text{
+    text-align: left;
+    display: inline;
+    font: optional;
+}
+.forphoto{
+    background-color: rgb(209, 209, 209);
+    padding: 30px;
+    height: 450px;
+    margin: 30px;
+    margin-top: 10px;
+}
+.img{
+    vertical-align: top;
+    height: auto;
+    height: 300px;
+    width: 250px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 70px 180px; 
+}
+.footer{
+    width: 900px;
+    margin: 0 auto;
+}
+.forsimilar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.Similar{
+    height: 150px;
+    width: 100px;
+}
+.Similar1{
+    margin: 20px;
+    text-align: center;
+}

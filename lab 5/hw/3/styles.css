@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.plans-container {
+    display: flex;
+    gap: 20px;
+}
+
+.plan {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 1s, box-shadow 1s;
+    cursor: pointer;
+}
+
+.plan:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.plan h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.plan p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.plan .price {
+    font-size: 32px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.plan .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.plan .btn:hover {
+    background-color: #0056b3;
+}

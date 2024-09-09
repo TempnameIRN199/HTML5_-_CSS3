@@ -1,0 +1,125 @@
+.img1{
+    height: 40px;
+    width: 40px;
+}
+.title{
+    text-align: left;
+    vertical-align:middle;
+   
+}
+.user{
+    display: flex;
+    float: right;
+    padding-right: 30px;
+    align-items: center
+}
+.user1{
+    text-align: left;
+    vertical-align:middle;
+    padding-left: 30px;
+    align-items: center;
+    display: inline-flex;
+    width: 250%;    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.menu{
+    padding: 30px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+
+.menupart{
+    background-color: rgb(238, 212, 212);
+    text-align: left;
+    vertical-align:middle;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+     align-items: center
+}
+.menupart1{
+    text-align: left;
+    vertical-align:middle;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+  align-items: center
+}
+.letters{
+    padding-top: 15px;
+}
+.star{
+    height: 15px;
+    width: 15px;
+}
+.fromto{
+    display: inline-block;
+    padding-left: 30px
+}
+.header{
+    display: inline;
+    color: rgb(0, 0, 0);
+}
+.header1{
+    display: inline;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(168, 168, 168);
+    white-space: nowrap;
+
+}
+.text{
+    color: rgb(168, 168, 168);
+    display: inline;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.date{
+    display: inline;
+    
+}
+.letter{
+    padding-top: 5px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 20px 30% 55% 20px 45px;
+  align-items: center;
+}
+@media screen and (max-width: 800px)and (min-width: 550px) {
+    .fromto,.text,.header{
+        display: block;
+    }
+    .user1{
+        width: 230%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menupart,.menupart1{
+        display: grid;
+        grid-template-columns: 50px 0px;
+        color:rgba(0,0,0,0);
+        width: 33px;
+    }
+    .user1{
+        width: 180%;
+    }
+    .letter{
+        padding-top: 5px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 20px 30% 100px 20px 45px;
+  align-items: center;
+    }
+    .fromto,.text,.header{
+        display: block;
+    }
+}
+.mail1{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}

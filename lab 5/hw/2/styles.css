@@ -1,0 +1,48 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100vh;
+    background-color: #2c3e50;
+    transition: all 1s ease-out;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.side-menu:hover {
+    width: 200px;
+}
+
+.menu-item{
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.menu-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.menu-text {
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.5s;
+}
+
+.side-menu:hover .menu-text{
+    opacity: 1;
+}
+
+.menu-item:hover {
+    background-color: #34495e;
+}
+
+.content {
+    margin-left: 60px;
+    padding: 20px;
+}
+

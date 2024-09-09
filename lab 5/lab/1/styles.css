@@ -1,0 +1,96 @@
+/* Стилизация для первого ряда (подписи столбцов) */
+td{
+    min-width: 150px;
+    min-height: 30px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+th{
+    min-width: 100px;
+    min-height: 30px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+}
+
+/*header*/
+thead th:nth-child(-n+1){
+    background-color: rgb(105, 120, 172);
+}
+thead th:nth-child(-2n+2){
+    background-color: rgb(88, 105, 161);
+}
+thead th:nth-child(-3n+3){
+    background-color: rgb(51, 71, 139);
+}
+thead th:nth-child(-4n+4){
+    background-color: rgb(12, 34, 112);
+}
+thead th:nth-child(-5n+5){
+    background-color: rgb(4, 22, 80);
+}
+  
+  /* Пример стилизации для четных строк */
+  tr:nth-child(2n) td:nth-child(2n - 1) {
+    background-color: rgb(218, 218, 218);
+}
+tr:nth-child(2n-1) td:nth-child(2n - 1) {
+    background-color: rgb(201, 200, 200);
+}
+tr:nth-child(2n-1) td:nth-child(2n - 2) {
+    background-color: rgb(223, 223, 223);
+}
+tfoot th:nth-child(2n - 1) {
+    background-color: rgb(201, 200, 200);
+}
+tfoot th:nth-child(2n - 2) {
+    background-color: rgb(223, 223, 223);
+}
+
+thead th:first-child{
+  border:1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border: none;
+  border-top-left-radius: 20px;
+}
+thead th:last-child{
+  border:1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border: none;
+  border-top-right-radius: 20px;
+}
+tfoot th:last-child{
+  border:1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border: none;
+  border-bottom-right-radius: 20px;
+}
+tfoot th:first-child{
+  border:1px;
+  border-style: solid;
+  border-color: #ffffff;
+  border: none;
+  border-bottom-left-radius: 20px;
+}
+
+.button {
+    display:inline-block;
+    color:#444;
+    border:1px solid #CCC;
+    background:#DDD;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+}
+.button:active {
+    color:red;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}

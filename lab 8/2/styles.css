@@ -1,0 +1,97 @@
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  .button1 {
+    color: rgb(255, 255, 255); 
+    background-color:#4CAF50;
+  }
+  .button1:hover {
+    background-color: #217a24;
+  }
+  .button2 {
+    color: rgb(255, 255, 255); 
+    background-color: #dd1669;
+  }
+  .button2:hover {
+    background-color: #831040;
+  }
+  .dis{
+    background-color: #969696;
+    cursor: not-allowed
+  }
+  .default  {
+    border: 1px solid #a3a3a3; 
+    border-radius: 3px; 
+    outline: none;
+    height: 24px; 
+    width: 120px; 
+    font-size: 11px; 
+    font-family: Tahoma; 
+    padding: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+ } 
+ input::placeholder {
+  color: #cccccc; 
+}
+
+ .invalid::placeholder {
+  color:  #cc4141;  
+}
+ .invalid{
+    border: 1px solid #cc4141; 
+    border-radius: 3px; 
+    outline: none;
+    height: 24px; 
+    width: 120px; 
+    color: #b91d1d; 
+    font-size: 11px; 
+    font-family: Tahoma; 
+    padding: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background: url('invalid.png') right center no-repeat ;
+
+ }
+ .valid::placeholder {
+  color:  #41cc58;  
+}
+ .valid{
+    border: 1px solid #41cc58; 
+    border-radius: 3px; 
+    outline: none;
+    height: 24px; 
+    width: 120px; 
+    color: #41cc58; 
+    font-size: 11px; 
+    font-family: Tahoma; 
+    padding: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-image: url(valid.png);
+    background: url('valid.png') right center no-repeat ;
+ }
+  textarea{
+  padding: 15px;
+ }
+ 
+ img{
+  height: 20px;
+  width: 50px;
+ }
+ .radio{
+  accent-color:  #288f31;
+  width: 30px;
+  height: 30px;
+ }
+ 

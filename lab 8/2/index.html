@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function changeImage() 
+        {
+          var image = document.getElementById("myImage");
+          var ar = image.src.split('/');
+          var n=ar[ar.length-1];
+          if (n == "valid1.png")  
+          {
+            image.src ="img/invalid.png";
+          } 
+          else {
+            image.src ="img/valid.png";
+          }
+      }
+      </script>
+</head>
+<body>
+    <h2>Inputs</h2>
+        <input type="text" placeholder="Enter some text"  class="default">
+        <input type="text" placeholder="valid text"  class="valid">
+        <input placeholder="invalid text"class="invalid">
+    <h2>Check boxes</h2>
+    <img src="img/valid.png" onclick="changeImage()" id="myImage">Subscribe
+
+    <h2>Radio buttons</h2>
+    Gender:
+    <input type="radio" name="gender" value="male"  class="radio"> Male
+    <input type="radio" name="gender" value="female" class="radio"> Female
+    <h2>Buttons</h2>
+    <button class="button button1">Active</button>
+    <button class="button button2">Danger</button>
+    <button class="button dis">Disabled</button>
+    <h2>Text area</h2>
+    <textarea placeholder="Enter some text"></textarea>
+</body>
+</html>

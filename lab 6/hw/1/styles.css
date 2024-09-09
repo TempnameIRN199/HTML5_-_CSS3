@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(1, 66, 66);
+    color: white;
+}
+
+h4{
+    font-weight: normal;
+    color: white;
+    margin: 50px;
+}
+
+.div{
+    font-size: 25px;
+    color: white;
+    max-width: 500px;
+    text-wrap: wrap;
+    margin: 50px;
+}
+
+.div1{
+    display: inline-block;
+
+}
+
+span{
+    color: gray;
+}
+
+img{
+    display: inline-block;
+    width: 50px;
+    margin: 50px;
+    margin-top: -5px;
+    height: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 50px;
+}

@@ -1,0 +1,24 @@
+@keyframes internet{
+    from{
+        margin-left: -100px;
+    }
+    to{
+        margin-left: 1000px;
+    }
+}
+
+.asd{
+    border: 1px orange solid;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    animation: internet 5s linear infinite;
+}
+
+.div{
+    border: 1px orange solid;
+    height: 100px;
+    width: 1000px;
+    margin: 0;
+    display: flex;
+}
